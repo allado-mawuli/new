@@ -1,0 +1,200 @@
+#title{
+  background-color:#f0a500;
+}
+
+body {
+background-image: url("https://static.wixstatic.com/media/1118d1_451034966230441c9b6b8cb6f6e45b78~mv2.jpeg");
+  background-color: #cccccc;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  color: #f4f6ff;
+  font-size: 3em;
+  margin: 50px auto 0 auto;
+  font-family: 'Arial',serif;
+}
+.navbar{
+  padding-bottom: 0.5rem;
+}
+.nav-item{
+  padding:0 10px;
+}
+.nav-link{
+  font-size:1.1rem;
+  font-family: "Montserrat-light";
+}
+.title-image{
+  width: 30%;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+    font-family: "Montserrat-dark";
+}
+h2 {
+  color: #f5f5f5;
+  text-decoration:none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 0;
+}
+
+h3 {
+  color: #faeee7;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 100px;
+}
+h4{
+color: #a6dcef;
+}
+.circular{
+  border-radius: 100%;
+  width: 200px;
+}
+.guide{
+  color: white;
+}
+#disponible{
+  background-color: #393e46;
+}
+
+.skills{
+padding-top: 10px;
+}
+
+p{
+    line-height: 2;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom:none ;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #e36387;
+}
+.top-container {
+  color: #faeee7;
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
+}
+
+.midle-container {
+margin: 100px 0 0;
+
+}
+
+
+.bottom-container {
+padding:30px 5px 0px;
+}
+.skill-row{
+  color: white;
+  width: 90%;
+  margin:50px auto 20px auto;
+  text-align: left;
+}
+.carousel-item{
+  height: 400px
+}
+
+.pro {
+  text-decoration: underline;
+}
+.into{
+width: 70%;
+margin:auto;
+}
+.contact-message{
+  width: 60%;
+  margin: 40px auto 60px;
+  padding-bottom: 4%;
+}
+#press{
+  margin-top: 10%;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.60rem;
+  padding-top: 10%;
+
+}
+.top-new {
+  position: absolute;
+  right: 300px;
+  top: 0;
+  bottom: 50px;
+  display: none;
+}
+
+.bottom-new {
+  position: absolute;
+  left: 300px;
+  bottom: 430px;
+  top: 0;
+  display: none;
+}
+.montain{
+  border: 500px;
+  display: none;
+}
+.skilla{
+  float: left;
+  margin-right: 40px;
+}
+.skillb{
+  float: right;
+  margin-left: 30px;
+}
+
+.contactez-moi{
+  margin-top: 50px;
+}
+
+.btn {
+	box-shadow: 0px 10px 14px -19px #fff6af;
+	background-color:#ffec64;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.btn:hover {
+	background-color:#ffab23;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+@media screen and (max-width: 600px) {
+  h1,h2,,h4,h5,h6 {
+    font-size: 2.5rem;
+  }
+  .skillb{
+    float: right;
+    margin-left: 30px;
+  }
+  .skilla{
+    float: left;
+    margin-right: 40px;
+  }
+  #disponible{
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2017/01/18/1074866/9e0742c14747f28da3f1dbe20c8643e4-700.jpg");
+  }
+}
